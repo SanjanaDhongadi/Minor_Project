@@ -1,0 +1,28 @@
+with open('config/sla_config.yaml', 'w', encoding='utf-8-sig') as f:
+    f.write('')
+
+with open('config/sla_config.yaml', 'w', encoding='utf-8', newline='\n') as f:
+    f.write('sla:\n')
+    f.write('  min_uptime_percent: 99.0\n')
+    f.write('  max_response_time_ms: 2000\n')
+    f.write('  max_error_rate_percent: 5.0\n')
+    f.write('  max_cpu_percent: 80.0\n')
+    f.write('  max_memory_percent: 85.0\n')
+    f.write('  max_restart_count: 3\n')
+    f.write('  post_recovery_wait_seconds: 30\n')
+    f.write('\n')
+    f.write('monitoring:\n')
+    f.write('  namespaces:\n')
+    f.write('    - default\n')
+    f.write('  poll_interval_seconds: 15\n')
+    f.write('  history_window: 20\n')
+    f.write('\n')
+    f.write('recovery:\n')
+    f.write('  actions:\n')
+    f.write('    - restart_pod\n')
+    f.write('    - redeploy_deployment\n')
+    f.write('    - adjust_resources\n')
+    f.write('    - reconfigure_app\n')
+    f.write('  max_recovery_attempts: 3\n')
+
+print('Done!')

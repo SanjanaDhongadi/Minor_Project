@@ -1,0 +1,22 @@
+sla:
+  min_uptime_percent: 99.0
+  max_response_time_ms: 2000
+  max_error_rate_percent: 5.0
+  max_cpu_percent: 80.0
+  max_memory_percent: 85.0
+  max_restart_count: 3
+  post_recovery_wait_seconds: 30
+
+monitoring:
+  namespaces:
+    - default
+  poll_interval_seconds: 15
+  history_window: 20
+
+recovery:
+  actions:
+    - restart_pod
+    - redeploy_deployment
+    - adjust_resources
+    - reconfigure_app
+  max_recovery_attempts: 3

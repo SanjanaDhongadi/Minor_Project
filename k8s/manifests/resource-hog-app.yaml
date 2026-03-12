@@ -1,0 +1,35 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: resource-hog-app
+  namespace: default
+  labels:
+    app: resource-hog-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: resource-hog-app
+  template:
+    metadata:
+      labels:
+        app: resource-hog-app
+    spec:
+      containers:
+      - name: resource-hog
+        image: busybox:1.36
+        command: ["/bin/sh", "-c"]
+        args:
+          - |
+            echo Resource hog starting...
+            while true; do
+              echo still running at 03/11/2026 13:22:03
+              sleep 10
+            done
+        resources:
+          requests:
+            memory: "32Mi"
+            cpu: "50m"
+          limits:
+            memory: "64Mi"
+            cpu: "100m"

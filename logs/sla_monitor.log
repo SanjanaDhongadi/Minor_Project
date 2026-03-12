@@ -1,0 +1,1239 @@
+2026-03-11 13:24:57,009 [INFO] sla_monitor: Namespaces: ['default']
+2026-03-11 13:24:57,009 [INFO] sla_monitor: Poll interval: 15s
+2026-03-11 13:24:59,973 [INFO] sla_monitor.recovery: Recovery action model loaded
+2026-03-11 13:24:59,997 [INFO] sla_monitor.recovery: RecoveryAgent initialized
+2026-03-11 13:25:00,057 [INFO] sla_monitor.monitoring: Pod health model loaded
+2026-03-11 13:25:00,105 [INFO] sla_monitor.monitoring: Autoscale model loaded
+2026-03-11 13:25:00,105 [INFO] sla_monitor.monitoring: MonitoringAgent initialized
+2026-03-11 13:25:00,105 [INFO] sla_monitor.monitoring: MonitoringAgent started — polling every 15s
+2026-03-11 13:25:00,466 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 13:25:15,794 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 13:25:31,090 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 13:25:46,417 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 13:26:06,218 [INFO] sla_monitor: Namespaces: ['default']
+2026-03-11 13:26:06,218 [INFO] sla_monitor: Poll interval: 15s
+2026-03-11 13:26:07,939 [INFO] sla_monitor.recovery: Recovery action model loaded
+2026-03-11 13:26:07,939 [INFO] sla_monitor.recovery: RecoveryAgent initialized
+2026-03-11 13:26:07,947 [INFO] sla_monitor.monitoring: Pod health model loaded
+2026-03-11 13:26:07,955 [INFO] sla_monitor.monitoring: Autoscale model loaded
+2026-03-11 13:26:07,955 [INFO] sla_monitor.monitoring: MonitoringAgent initialized
+2026-03-11 13:26:07,955 [INFO] sla_monitor.monitoring: MonitoringAgent started — polling every 15s
+2026-03-11 13:26:08,213 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:08:15,331 [INFO] sla_monitor: Namespaces: ['default']
+2026-03-11 16:08:15,331 [INFO] sla_monitor: Poll interval: 15s
+2026-03-11 16:08:18,794 [INFO] sla_monitor.recovery: Recovery action model loaded
+2026-03-11 16:08:18,794 [INFO] sla_monitor.recovery: RecoveryAgent initialized
+2026-03-11 16:08:18,799 [INFO] sla_monitor.monitoring: Pod health model loaded
+2026-03-11 16:08:18,803 [INFO] sla_monitor.monitoring: Autoscale model loaded
+2026-03-11 16:08:18,808 [INFO] sla_monitor.monitoring: MonitoringAgent initialized
+2026-03-11 16:08:18,808 [INFO] sla_monitor.monitoring: MonitoringAgent started — polling every 15s
+2026-03-11 16:08:19,039 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:08:34,333 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:08:49,569 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:09:05,152 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:09:20,508 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:09:35,799 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:09:51,241 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:10:06,505 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:10:21,853 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:10:38,816 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:10:56,000 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:11:11,330 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:11:26,666 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:11:41,940 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:50:10,690 [INFO] sla_monitor: Namespaces: ['default']
+2026-03-11 16:50:10,691 [INFO] sla_monitor: Poll interval: 15s
+2026-03-11 16:50:22,787 [INFO] sla_monitor.recovery: Recovery action model loaded
+2026-03-11 16:50:22,787 [INFO] sla_monitor.recovery: RecoveryAgent initialized
+2026-03-11 16:50:22,803 [INFO] sla_monitor.monitoring: Pod health model loaded
+2026-03-11 16:50:22,823 [INFO] sla_monitor.monitoring: Autoscale model loaded
+2026-03-11 16:50:22,823 [INFO] sla_monitor.monitoring: MonitoringAgent initialized
+2026-03-11 16:50:22,832 [INFO] sla_monitor.monitoring: MonitoringAgent started — polling every 15s
+2026-03-11 16:50:23,044 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:50:38,380 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:50:53,608 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:51:08,897 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:51:24,151 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:51:39,484 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:51:54,752 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:52:09,977 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:52:25,184 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:52:40,396 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:52:55,620 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:53:10,818 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:53:26,020 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:53:41,235 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:53:56,427 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:54:11,640 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:54:26,850 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:54:42,132 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:54:57,343 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:55:12,548 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:55:27,753 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:55:43,023 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:55:58,233 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 16:56:13,467 [ERROR] sla_monitor.monitoring: Monitoring cycle error: 'sla'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 160, in _run_monitoring_cycle
+    sla_ok, violations = self._check_sla(pod_name, namespace, snapshot)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 273, in _check_sla
+    if snapshot["cpu_percent"] > cfg.max_cpu_percent:
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanja\Documents\Minor project\utils\config_loader.py", line 18, in max_cpu_percent
+    def max_cpu_percent(self): return self._data['sla']['max_cpu_percent']
+                                      ~~~~~~~~~~^^^^^^^
+KeyError: 'sla'
+2026-03-11 17:02:34,175 [INFO] sla_monitor: Namespaces: ['default']
+2026-03-11 17:02:34,177 [INFO] sla_monitor: Poll interval: 15s
+2026-03-11 17:02:36,953 [INFO] sla_monitor.recovery: Recovery action model loaded
+2026-03-11 17:02:36,961 [INFO] sla_monitor.recovery: RecoveryAgent initialized
+2026-03-11 17:02:36,961 [INFO] sla_monitor.monitoring: Pod health model loaded
+2026-03-11 17:02:36,972 [INFO] sla_monitor.monitoring: Autoscale model loaded
+2026-03-11 17:02:36,972 [INFO] sla_monitor.monitoring: MonitoringAgent initialized
+2026-03-11 17:02:36,974 [INFO] sla_monitor.monitoring: MonitoringAgent started — polling every 15s
+2026-03-11 17:02:38,005 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:02:38,588 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:02:39,056 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-vtv9g failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:02:39,087 [WARNING] sla_monitor.sla: [SLA VIOLATION] pod=unstable-app-76c464bb9d-9qqjt metric=restart_count value=15.00 threshold=3.00
+2026-03-11 17:02:39,087 [WARNING] sla_monitor.monitoring: Triggering recovery for unstable-app-76c464bb9d-9qqjt — state=Normal, violations=['Restarts 15 > max 3', 'Container not ready despite Running phase']
+2026-03-11 17:02:39,333 [INFO] sla_monitor.recovery: ML selected action: restart_pod for failure: ContainerNotReady
+2026-03-11 17:02:39,333 [INFO] sla_monitor.recovery: Executing action 'restart_pod' on pod 'unstable-app-76c464bb9d-9qqjt' in 'default'
+2026-03-11 17:02:39,333 [INFO] utils.k8s_client: Restarting pod: unstable-app-76c464bb9d-9qqjt
+2026-03-11 17:02:44,575 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-76c464bb9d-9qqjt failure=ContainerNotReady action=restart_pod status=Resolved
+2026-03-11 17:02:44,659 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-76c464bb9d-9qqjt failure=LowLoad action=scale_down_replicas status=Failed
+2026-03-11 17:03:00,176 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:03:00,533 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:03:00,875 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-76c464bb9d-n585p failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:03:16,392 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:03:16,731 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:03:17,097 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-76c464bb9d-n585p failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:03:32,753 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:03:33,174 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:03:33,565 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-76c464bb9d-n585p failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:06:02,662 [INFO] sla_monitor: Namespaces: ['default']
+2026-03-11 17:06:02,663 [INFO] sla_monitor: Poll interval: 15s
+2026-03-11 17:06:03,971 [INFO] sla_monitor.recovery: Recovery action model loaded
+2026-03-11 17:06:03,971 [INFO] sla_monitor.recovery: RecoveryAgent initialized
+2026-03-11 17:06:03,972 [INFO] sla_monitor.monitoring: Pod health model loaded
+2026-03-11 17:06:03,982 [INFO] sla_monitor.monitoring: Autoscale model loaded
+2026-03-11 17:06:03,983 [INFO] sla_monitor.monitoring: MonitoringAgent initialized
+2026-03-11 17:06:03,984 [INFO] sla_monitor.monitoring: MonitoringAgent started — polling every 15s
+2026-03-11 17:06:04,507 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:06:04,858 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:06:04,889 [WARNING] sla_monitor.sla: [SLA VIOLATION] pod=unstable-app-76c464bb9d-n585p metric=restart_count value=4.00 threshold=3.00
+2026-03-11 17:06:04,890 [WARNING] sla_monitor.monitoring: Triggering recovery for unstable-app-76c464bb9d-n585p — state=Normal, violations=['Restarts 4 > max 3']
+2026-03-11 17:06:05,093 [INFO] sla_monitor.recovery: ML selected action: rollout_restart_deployment for failure: CrashLoopBackOff
+2026-03-11 17:06:05,093 [INFO] sla_monitor.recovery: Executing action 'rollout_restart_deployment' on pod 'unstable-app-76c464bb9d-n585p' in 'default'
+2026-03-11 17:06:05,256 [INFO] utils.k8s_client: Rolling restart: unstable-app
+2026-03-11 17:06:10,441 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-76c464bb9d-n585p failure=CrashLoopBackOff action=rollout_restart_deployment status=Resolved
+2026-03-11 17:06:10,774 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-76c464bb9d-n585p failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:06:26,347 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:06:26,775 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:06:27,204 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-vxp8j failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:06:27,264 [WARNING] sla_monitor.sla: [SLA VIOLATION] pod=unstable-app-76c464bb9d-n585p metric=restart_count value=4.00 threshold=3.00
+2026-03-11 17:06:27,638 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-76c464bb9d-n585p failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:06:43,223 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:06:43,618 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:06:44,030 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-vxp8j failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:06:59,611 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:07:00,039 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:07:00,458 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-vxp8j failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:07:16,061 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:07:16,496 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:07:16,561 [WARNING] sla_monitor.monitoring: Triggering recovery for unstable-app-6746947b4b-vxp8j — state=Normal, violations=['Container not ready despite Running phase']
+2026-03-11 17:07:16,831 [INFO] sla_monitor.recovery: ML selected action: restart_pod for failure: ContainerNotReady
+2026-03-11 17:07:16,832 [INFO] sla_monitor.recovery: Executing action 'restart_pod' on pod 'unstable-app-6746947b4b-vxp8j' in 'default'
+2026-03-11 17:07:16,832 [INFO] utils.k8s_client: Restarting pod: unstable-app-6746947b4b-vxp8j
+2026-03-11 17:07:22,079 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-vxp8j failure=ContainerNotReady action=restart_pod status=Resolved
+2026-03-11 17:07:22,180 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-vxp8j failure=LowLoad action=scale_down_replicas status=Failed
+2026-03-11 17:07:37,798 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:07:38,235 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:07:38,624 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-f65zz failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:07:54,225 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:07:54,631 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:07:55,064 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-f65zz failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:08:10,669 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:08:11,126 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:08:11,534 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-f65zz failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:08:27,129 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:08:27,557 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:08:27,621 [WARNING] sla_monitor.monitoring: Triggering recovery for unstable-app-6746947b4b-f65zz — state=Normal, violations=['Container not ready despite Running phase']
+2026-03-11 17:08:27,885 [INFO] sla_monitor.recovery: ML selected action: restart_pod for failure: ContainerNotReady
+2026-03-11 17:08:27,885 [INFO] sla_monitor.recovery: Executing action 'restart_pod' on pod 'unstable-app-6746947b4b-f65zz' in 'default'
+2026-03-11 17:08:27,885 [INFO] utils.k8s_client: Restarting pod: unstable-app-6746947b4b-f65zz
+2026-03-11 17:08:33,146 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-f65zz failure=ContainerNotReady action=restart_pod status=Resolved
+2026-03-11 17:08:33,232 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-f65zz failure=LowLoad action=scale_down_replicas status=Failed
+2026-03-11 17:08:48,813 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:08:49,209 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:08:49,639 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-9cxfg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:09:05,263 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:09:05,680 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:09:06,102 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-9cxfg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:09:21,735 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:09:22,244 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:09:22,710 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-9cxfg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:09:38,347 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:09:38,763 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:09:38,824 [WARNING] sla_monitor.monitoring: Triggering recovery for unstable-app-6746947b4b-9cxfg — state=Normal, violations=['Container not ready despite Running phase']
+2026-03-11 17:09:39,090 [INFO] sla_monitor.recovery: ML selected action: restart_pod for failure: ContainerNotReady
+2026-03-11 17:09:39,090 [INFO] sla_monitor.recovery: Executing action 'restart_pod' on pod 'unstable-app-6746947b4b-9cxfg' in 'default'
+2026-03-11 17:09:39,096 [INFO] utils.k8s_client: Restarting pod: unstable-app-6746947b4b-9cxfg
+2026-03-11 17:09:44,311 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-9cxfg failure=ContainerNotReady action=restart_pod status=Resolved
+2026-03-11 17:09:44,400 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-9cxfg failure=LowLoad action=scale_down_replicas status=Failed
+2026-03-11 17:10:00,034 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:10:00,486 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:10:00,932 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-5rd9w failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:10:16,511 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:10:16,941 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:10:17,382 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-5rd9w failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:10:33,070 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:10:33,475 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:10:33,861 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-5rd9w failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:10:49,527 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:10:49,950 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:10:50,022 [WARNING] sla_monitor.monitoring: Triggering recovery for unstable-app-6746947b4b-5rd9w — state=Normal, violations=['Container not ready despite Running phase']
+2026-03-11 17:10:50,294 [INFO] sla_monitor.recovery: ML selected action: restart_pod for failure: ContainerNotReady
+2026-03-11 17:10:50,296 [INFO] sla_monitor.recovery: Executing action 'restart_pod' on pod 'unstable-app-6746947b4b-5rd9w' in 'default'
+2026-03-11 17:10:50,297 [INFO] utils.k8s_client: Restarting pod: unstable-app-6746947b4b-5rd9w
+2026-03-11 17:10:55,522 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-5rd9w failure=ContainerNotReady action=restart_pod status=Resolved
+2026-03-11 17:10:55,616 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-5rd9w failure=LowLoad action=scale_down_replicas status=Failed
+2026-03-11 17:11:11,182 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:11:11,544 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:11:11,933 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-xpdsl failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:11:27,585 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:11:28,048 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:11:28,518 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-xpdsl failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:11:44,628 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:11:45,121 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:11:45,550 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-xpdsl failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:12:01,165 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:12:01,522 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:12:01,591 [WARNING] sla_monitor.monitoring: Triggering recovery for unstable-app-6746947b4b-xpdsl — state=Normal, violations=['Container not ready despite Running phase']
+2026-03-11 17:12:01,839 [INFO] sla_monitor.recovery: ML selected action: restart_pod for failure: ContainerNotReady
+2026-03-11 17:12:01,839 [INFO] sla_monitor.recovery: Executing action 'restart_pod' on pod 'unstable-app-6746947b4b-xpdsl' in 'default'
+2026-03-11 17:12:01,839 [INFO] utils.k8s_client: Restarting pod: unstable-app-6746947b4b-xpdsl
+2026-03-11 17:12:07,071 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-xpdsl failure=ContainerNotReady action=restart_pod status=Resolved
+2026-03-11 17:12:07,168 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-xpdsl failure=LowLoad action=scale_down_replicas status=Failed
+2026-03-11 17:12:22,965 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:12:23,342 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:12:23,766 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-95zch failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:12:39,363 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:12:39,784 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:12:40,205 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-95zch failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:12:55,849 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:12:56,324 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:12:57,031 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-95zch failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:13:12,876 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:13:13,437 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:13:13,493 [WARNING] sla_monitor.monitoring: Triggering recovery for unstable-app-6746947b4b-95zch — state=Normal, violations=['Container not ready despite Running phase']
+2026-03-11 17:13:13,791 [INFO] sla_monitor.recovery: ML selected action: restart_pod for failure: ContainerNotReady
+2026-03-11 17:13:13,795 [INFO] sla_monitor.recovery: Executing action 'restart_pod' on pod 'unstable-app-6746947b4b-95zch' in 'default'
+2026-03-11 17:13:13,795 [INFO] utils.k8s_client: Restarting pod: unstable-app-6746947b4b-95zch
+2026-03-11 17:13:24,215 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-95zch failure=ContainerNotReady action=restart_pod status=Resolved
+2026-03-11 17:13:24,361 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-95zch failure=LowLoad action=scale_down_replicas status=Failed
+2026-03-11 17:13:39,999 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:13:40,435 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:13:40,873 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-m89j6 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:13:56,773 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:13:57,332 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:13:57,816 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-m89j6 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:14:13,475 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:14:13,943 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:14:14,405 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-m89j6 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:14:30,236 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:14:30,733 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:14:30,775 [WARNING] sla_monitor.monitoring: Triggering recovery for unstable-app-6746947b4b-m89j6 — state=Normal, violations=['Container not ready despite Running phase']
+2026-03-11 17:14:31,071 [INFO] sla_monitor.recovery: ML selected action: restart_pod for failure: ContainerNotReady
+2026-03-11 17:14:31,073 [INFO] sla_monitor.recovery: Executing action 'restart_pod' on pod 'unstable-app-6746947b4b-m89j6' in 'default'
+2026-03-11 17:14:31,073 [INFO] utils.k8s_client: Restarting pod: unstable-app-6746947b4b-m89j6
+2026-03-11 17:14:36,376 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-m89j6 failure=ContainerNotReady action=restart_pod status=Resolved
+2026-03-11 17:14:36,490 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-m89j6 failure=LowLoad action=scale_down_replicas status=Failed
+2026-03-11 17:14:52,162 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:14:52,609 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:14:53,139 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-92p7w failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:15:08,797 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:15:09,252 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:15:09,720 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-92p7w failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:15:25,413 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:15:25,907 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:15:26,424 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-92p7w failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:15:42,058 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:15:42,487 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:15:42,550 [WARNING] sla_monitor.monitoring: Triggering recovery for unstable-app-6746947b4b-92p7w — state=Normal, violations=['Container not ready despite Running phase']
+2026-03-11 17:15:42,823 [INFO] sla_monitor.recovery: ML selected action: restart_pod for failure: ContainerNotReady
+2026-03-11 17:15:42,823 [INFO] sla_monitor.recovery: Executing action 'restart_pod' on pod 'unstable-app-6746947b4b-92p7w' in 'default'
+2026-03-11 17:15:42,825 [INFO] utils.k8s_client: Restarting pod: unstable-app-6746947b4b-92p7w
+2026-03-11 17:15:48,076 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-92p7w failure=ContainerNotReady action=restart_pod status=Resolved
+2026-03-11 17:15:48,178 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-92p7w failure=LowLoad action=scale_down_replicas status=Failed
+2026-03-11 17:16:03,831 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:16:04,252 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:16:04,712 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-55wqj failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:16:20,571 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:16:21,087 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:16:21,579 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-55wqj failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:16:37,274 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:16:37,754 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:16:38,211 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-55wqj failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:16:53,850 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:16:54,287 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:16:54,348 [WARNING] sla_monitor.monitoring: Triggering recovery for unstable-app-6746947b4b-55wqj — state=Normal, violations=['Container not ready despite Running phase']
+2026-03-11 17:16:54,618 [INFO] sla_monitor.recovery: ML selected action: restart_pod for failure: ContainerNotReady
+2026-03-11 17:16:54,618 [INFO] sla_monitor.recovery: Executing action 'restart_pod' on pod 'unstable-app-6746947b4b-55wqj' in 'default'
+2026-03-11 17:16:54,618 [INFO] utils.k8s_client: Restarting pod: unstable-app-6746947b4b-55wqj
+2026-03-11 17:16:59,904 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-55wqj failure=ContainerNotReady action=restart_pod status=Resolved
+2026-03-11 17:17:00,010 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-55wqj failure=LowLoad action=scale_down_replicas status=Failed
+2026-03-11 17:17:15,683 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:17:16,174 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:17:16,629 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-pkqwr failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:17:32,274 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:17:32,743 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:17:33,234 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-pkqwr failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:17:48,884 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:17:49,317 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:17:49,770 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-pkqwr failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:18:05,480 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:18:05,988 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:18:06,066 [WARNING] sla_monitor.monitoring: Triggering recovery for unstable-app-6746947b4b-pkqwr — state=Normal, violations=['Container not ready despite Running phase']
+2026-03-11 17:18:06,427 [INFO] sla_monitor.recovery: ML selected action: restart_pod for failure: ContainerNotReady
+2026-03-11 17:18:06,434 [INFO] sla_monitor.recovery: Executing action 'restart_pod' on pod 'unstable-app-6746947b4b-pkqwr' in 'default'
+2026-03-11 17:18:06,436 [INFO] utils.k8s_client: Restarting pod: unstable-app-6746947b4b-pkqwr
+2026-03-11 17:18:11,741 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-pkqwr failure=ContainerNotReady action=restart_pod status=Resolved
+2026-03-11 17:18:11,865 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-pkqwr failure=LowLoad action=scale_down_replicas status=Failed
+2026-03-11 17:18:27,650 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:18:28,194 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:18:28,670 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-q8rmn failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:18:44,372 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:18:44,918 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:18:45,405 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-q8rmn failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:19:01,078 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:19:01,540 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:19:01,986 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-q8rmn failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:19:17,661 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:19:18,188 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:19:18,258 [WARNING] sla_monitor.monitoring: Triggering recovery for unstable-app-6746947b4b-q8rmn — state=Normal, violations=['Container not ready despite Running phase']
+2026-03-11 17:19:18,606 [INFO] sla_monitor.recovery: ML selected action: restart_pod for failure: ContainerNotReady
+2026-03-11 17:19:18,608 [INFO] sla_monitor.recovery: Executing action 'restart_pod' on pod 'unstable-app-6746947b4b-q8rmn' in 'default'
+2026-03-11 17:19:18,608 [INFO] utils.k8s_client: Restarting pod: unstable-app-6746947b4b-q8rmn
+2026-03-11 17:19:23,897 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-q8rmn failure=ContainerNotReady action=restart_pod status=Resolved
+2026-03-11 17:19:24,007 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-q8rmn failure=LowLoad action=scale_down_replicas status=Failed
+2026-03-11 17:19:39,636 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:19:40,081 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:19:40,535 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-zxdjj failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:19:56,946 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:19:57,607 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:19:58,126 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-zxdjj failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:20:13,845 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:20:14,270 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:20:14,723 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-zxdjj failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:20:31,084 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:20:32,015 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:20:32,087 [WARNING] sla_monitor.monitoring: Triggering recovery for unstable-app-6746947b4b-zxdjj — state=Normal, violations=['Container not ready despite Running phase']
+2026-03-11 17:20:32,588 [INFO] sla_monitor.recovery: ML selected action: restart_pod for failure: ContainerNotReady
+2026-03-11 17:20:32,590 [INFO] sla_monitor.recovery: Executing action 'restart_pod' on pod 'unstable-app-6746947b4b-zxdjj' in 'default'
+2026-03-11 17:20:32,590 [INFO] utils.k8s_client: Restarting pod: unstable-app-6746947b4b-zxdjj
+2026-03-11 17:20:38,059 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-zxdjj failure=ContainerNotReady action=restart_pod status=Resolved
+2026-03-11 17:20:38,292 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-zxdjj failure=LowLoad action=scale_down_replicas status=Failed
+2026-03-11 17:20:54,479 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:20:55,321 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-11 17:20:56,171 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-gfqff failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:00:47,299 [INFO] sla_monitor: Namespaces: ['default']
+2026-03-12 10:00:47,300 [INFO] sla_monitor: Poll interval: 15s
+2026-03-12 10:01:04,509 [INFO] sla_monitor.recovery: Recovery action model loaded
+2026-03-12 10:01:04,509 [INFO] sla_monitor.recovery: RecoveryAgent initialized
+2026-03-12 10:01:04,571 [INFO] sla_monitor.monitoring: Pod health model loaded
+2026-03-12 10:01:04,633 [INFO] sla_monitor.monitoring: Autoscale model loaded
+2026-03-12 10:01:04,633 [INFO] sla_monitor.monitoring: MonitoringAgent initialized
+2026-03-12 10:01:04,633 [INFO] sla_monitor.monitoring: MonitoringAgent started — polling every 15s
+2026-03-12 10:01:06,115 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:01:06,705 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:01:07,234 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-gfqff failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:01:22,997 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:01:23,726 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:01:23,790 [WARNING] sla_monitor.monitoring: Triggering recovery for unstable-app-6746947b4b-gfqff — state=Normal, violations=['Container not ready despite Running phase']
+2026-03-12 10:01:24,151 [INFO] sla_monitor.recovery: ML selected action: restart_pod for failure: ContainerNotReady
+2026-03-12 10:01:24,151 [INFO] sla_monitor.recovery: Executing action 'restart_pod' on pod 'unstable-app-6746947b4b-gfqff' in 'default'
+2026-03-12 10:01:24,151 [INFO] utils.k8s_client: Restarting pod: unstable-app-6746947b4b-gfqff
+2026-03-12 10:01:29,438 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-gfqff failure=ContainerNotReady action=restart_pod status=Resolved
+2026-03-12 10:01:29,596 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-gfqff failure=LowLoad action=scale_down_replicas status=Failed
+2026-03-12 10:01:45,555 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:01:46,203 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:01:46,828 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-rp4bn failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:02:04,561 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:02:05,704 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:02:06,859 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-rp4bn failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:02:22,850 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:02:23,527 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:02:24,378 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-rp4bn failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:02:40,189 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:02:40,665 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:02:41,149 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-rp4bn failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:09:23,091 [INFO] sla_monitor: Namespaces: ['default']
+2026-03-12 10:09:23,092 [INFO] sla_monitor: Poll interval: 15s
+2026-03-12 10:09:39,730 [INFO] sla_monitor.recovery: Recovery action model loaded
+2026-03-12 10:09:39,730 [INFO] sla_monitor.recovery: RecoveryAgent initialized
+2026-03-12 10:09:39,771 [INFO] sla_monitor.monitoring: Pod health model loaded
+2026-03-12 10:09:39,822 [INFO] sla_monitor.monitoring: Autoscale model loaded
+2026-03-12 10:09:39,822 [INFO] sla_monitor.monitoring: MonitoringAgent initialized
+2026-03-12 10:09:39,824 [INFO] sla_monitor.monitoring: MonitoringAgent started - polling every 15s
+2026-03-12 10:09:40,127 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:09:40,483 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:09:40,517 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:09:40,867 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:09:40,895 [WARNING] sla_monitor.sla: [SLA VIOLATION] pod=unstable-app-6746947b4b-rp4bn metric=restart_count value=5.00 threshold=3.00
+2026-03-12 10:09:40,895 [WARNING] sla_monitor.monitoring: Triggering recovery for unstable-app-6746947b4b-rp4bn - state=Normal, violations=['Restarts 5 > max 3', 'Container not ready despite Running phase']
+2026-03-12 10:09:41,119 [INFO] sla_monitor.recovery: ML selected action: restart_pod for failure: ContainerNotReady
+2026-03-12 10:09:41,119 [INFO] sla_monitor.recovery: Executing action 'restart_pod' on pod 'unstable-app-6746947b4b-rp4bn' in 'default'
+2026-03-12 10:09:41,119 [INFO] utils.k8s_client: Restarting pod: unstable-app-6746947b4b-rp4bn
+2026-03-12 10:09:46,368 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-rp4bn failure=ContainerNotReady action=restart_pod status=Resolved
+2026-03-12 10:09:46,370 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-rp4bn -> scale_down
+2026-03-12 10:09:46,456 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-rp4bn failure=LowLoad action=scale_down_replicas status=Failed
+2026-03-12 10:10:01,672 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:10:02,043 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:10:02,076 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:10:02,411 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:10:02,440 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-dqw4q -> scale_down
+2026-03-12 10:10:02,763 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-dqw4q failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:10:17,976 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:10:18,295 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:10:18,324 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:10:18,706 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:10:18,741 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-dqw4q -> scale_down
+2026-03-12 10:10:19,076 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-dqw4q failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:10:34,382 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:10:34,871 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:10:34,902 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:10:35,329 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:10:35,397 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-dqw4q -> scale_down
+2026-03-12 10:10:35,797 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-dqw4q failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:10:51,154 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:10:51,592 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:10:51,673 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:10:52,171 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:10:52,256 [WARNING] sla_monitor.monitoring: Triggering recovery for unstable-app-6746947b4b-dqw4q - state=Normal, violations=['Container not ready despite Running phase']
+2026-03-12 10:10:52,612 [INFO] sla_monitor.recovery: ML selected action: restart_pod for failure: ContainerNotReady
+2026-03-12 10:10:52,617 [INFO] sla_monitor.recovery: Executing action 'restart_pod' on pod 'unstable-app-6746947b4b-dqw4q' in 'default'
+2026-03-12 10:10:52,618 [INFO] utils.k8s_client: Restarting pod: unstable-app-6746947b4b-dqw4q
+2026-03-12 10:10:57,945 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-dqw4q failure=ContainerNotReady action=restart_pod status=Resolved
+2026-03-12 10:10:57,954 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-dqw4q -> scale_down
+2026-03-12 10:10:58,177 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-dqw4q failure=LowLoad action=scale_down_replicas status=Failed
+2026-03-12 10:11:13,467 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:11:13,804 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:11:13,891 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:11:14,250 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:11:14,323 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-jqkrc -> scale_down
+2026-03-12 10:11:14,732 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-jqkrc failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:11:30,009 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:11:30,403 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:11:30,488 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:11:30,851 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:11:30,935 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-jqkrc -> scale_down
+2026-03-12 10:11:31,352 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-jqkrc failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:11:46,673 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:11:47,036 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:11:47,128 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:11:47,497 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:11:47,594 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-jqkrc -> scale_down
+2026-03-12 10:11:47,979 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-jqkrc failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:12:03,251 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:12:03,680 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:12:03,762 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:12:04,200 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:12:04,247 [WARNING] sla_monitor.monitoring: Triggering recovery for unstable-app-6746947b4b-jqkrc - state=Normal, violations=['Container not ready despite Running phase']
+2026-03-12 10:12:04,530 [INFO] sla_monitor.recovery: ML selected action: restart_pod for failure: ContainerNotReady
+2026-03-12 10:12:04,530 [INFO] sla_monitor.recovery: Executing action 'restart_pod' on pod 'unstable-app-6746947b4b-jqkrc' in 'default'
+2026-03-12 10:12:04,530 [INFO] utils.k8s_client: Restarting pod: unstable-app-6746947b4b-jqkrc
+2026-03-12 10:12:09,771 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-jqkrc failure=ContainerNotReady action=restart_pod status=Resolved
+2026-03-12 10:12:09,780 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-jqkrc -> scale_down
+2026-03-12 10:12:09,868 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-jqkrc failure=LowLoad action=scale_down_replicas status=Failed
+2026-03-12 10:12:26,115 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:12:26,595 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:12:26,663 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:12:27,160 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:12:27,224 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-nzpws -> scale_down
+2026-03-12 10:12:27,659 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-nzpws failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:37:08,046 [INFO] sla_monitor: Namespaces: ['default']
+2026-03-12 10:37:08,048 [INFO] sla_monitor: Poll interval: 15s
+2026-03-12 10:37:12,622 [INFO] sla_monitor.recovery: Recovery action model loaded
+2026-03-12 10:37:12,622 [INFO] sla_monitor.recovery: RecoveryAgent initialized
+2026-03-12 10:37:12,632 [INFO] sla_monitor.monitoring: Pod health model loaded
+2026-03-12 10:37:12,664 [INFO] sla_monitor.monitoring: Autoscale model loaded
+2026-03-12 10:37:12,664 [INFO] sla_monitor.monitoring: MonitoringAgent initialized
+2026-03-12 10:37:12,664 [INFO] sla_monitor.monitoring: MonitoringAgent started - polling every 15s
+2026-03-12 10:37:13,367 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:37:14,277 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:37:15,159 [WARNING] sla_monitor.sla: [SLA VIOLATION] pod=unstable-app-6746947b4b-nzpws metric=restart_count value=8.00 threshold=3.00
+2026-03-12 10:37:15,172 [WARNING] sla_monitor.monitoring: Triggering recovery for unstable-app-6746947b4b-nzpws - state=Normal, violations=['Restarts 8 > max 3', 'Container not ready despite Running phase']
+2026-03-12 10:37:15,657 [INFO] sla_monitor.recovery: ML selected action: restart_pod for failure: ContainerNotReady
+2026-03-12 10:37:15,657 [INFO] sla_monitor.recovery: Executing action 'restart_pod' on pod 'unstable-app-6746947b4b-nzpws' in 'default'
+2026-03-12 10:37:15,657 [INFO] utils.k8s_client: Restarting pod: unstable-app-6746947b4b-nzpws
+2026-03-12 10:37:26,109 [ERROR] sla_monitor.monitoring: Monitoring cycle error: [Errno 13] Permission denied: 'C:\\Users\\Sanja\\Documents\\Minor project\\logs\\recovery_log.csv'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 171, in _run_monitoring_cycle
+    self._trigger_recovery(pod, namespace, ml_state, violations, snapshot)
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 333, in _trigger_recovery
+    self.recovery_agent.handle_failure(pod, namespace, ml_state, violations, snapshot)
+  File "C:\Users\Sanja\Documents\Minor project\agents\recovery_agent.py", line 130, in handle_failure
+    log_failure_event(
+  File "C:\Users\Sanja\Documents\Minor project\utils\logger.py", line 29, in log_failure_event
+    with open(LOG_FILE_CSV, 'a', newline='') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Sanja\\Documents\\Minor project\\logs\\recovery_log.csv'
+2026-03-12 10:37:41,378 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:37:41,875 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:37:42,458 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-gsnf9 -> scale_down
+2026-03-12 10:37:58,226 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:37:58,692 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:37:59,154 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-gsnf9 -> scale_down
+2026-03-12 10:38:14,936 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:38:15,412 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:38:15,875 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-gsnf9 -> scale_down
+2026-03-12 10:38:31,693 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:38:32,207 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:38:32,697 [WARNING] sla_monitor.monitoring: Triggering recovery for unstable-app-6746947b4b-gsnf9 - state=Normal, violations=['Container not ready despite Running phase']
+2026-03-12 10:38:32,989 [INFO] sla_monitor.recovery: ML selected action: restart_pod for failure: ContainerNotReady
+2026-03-12 10:38:32,989 [INFO] sla_monitor.recovery: Executing action 'restart_pod' on pod 'unstable-app-6746947b4b-gsnf9' in 'default'
+2026-03-12 10:38:32,992 [INFO] utils.k8s_client: Restarting pod: unstable-app-6746947b4b-gsnf9
+2026-03-12 10:38:38,322 [ERROR] sla_monitor.monitoring: Monitoring cycle error: [Errno 13] Permission denied: 'C:\\Users\\Sanja\\Documents\\Minor project\\logs\\recovery_log.csv'
+Traceback (most recent call last):
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 114, in start
+    self._run_monitoring_cycle()
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 171, in _run_monitoring_cycle
+    self._trigger_recovery(pod, namespace, ml_state, violations, snapshot)
+  File "C:\Users\Sanja\Documents\Minor project\agents\monitoring_agent.py", line 333, in _trigger_recovery
+    self.recovery_agent.handle_failure(pod, namespace, ml_state, violations, snapshot)
+  File "C:\Users\Sanja\Documents\Minor project\agents\recovery_agent.py", line 130, in handle_failure
+    log_failure_event(
+  File "C:\Users\Sanja\Documents\Minor project\utils\logger.py", line 29, in log_failure_event
+    with open(LOG_FILE_CSV, 'a', newline='') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Sanja\\Documents\\Minor project\\logs\\recovery_log.csv'
+2026-03-12 10:38:53,702 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:38:54,359 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:38:55,027 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-zzfgf -> scale_down
+2026-03-12 10:39:10,956 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:39:11,395 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:39:11,436 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:39:11,889 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:39:11,947 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-zzfgf -> scale_down
+2026-03-12 10:39:12,367 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-zzfgf failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:39:27,682 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:39:28,131 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:39:28,190 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:39:28,691 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:39:28,748 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-zzfgf -> scale_down
+2026-03-12 10:39:29,194 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-zzfgf failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:39:44,465 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:39:44,867 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:39:44,901 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:39:45,322 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:39:45,355 [WARNING] sla_monitor.monitoring: Triggering recovery for unstable-app-6746947b4b-zzfgf - state=Normal, violations=['Container not ready despite Running phase']
+2026-03-12 10:39:45,608 [INFO] sla_monitor.recovery: ML selected action: restart_pod for failure: ContainerNotReady
+2026-03-12 10:39:45,608 [INFO] sla_monitor.recovery: Executing action 'restart_pod' on pod 'unstable-app-6746947b4b-zzfgf' in 'default'
+2026-03-12 10:39:45,610 [INFO] utils.k8s_client: Restarting pod: unstable-app-6746947b4b-zzfgf
+2026-03-12 10:39:50,873 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-zzfgf failure=ContainerNotReady action=restart_pod status=Resolved
+2026-03-12 10:39:50,877 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-zzfgf -> scale_down
+2026-03-12 10:39:50,982 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-zzfgf failure=LowLoad action=scale_down_replicas status=Failed
+2026-03-12 10:40:06,278 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:40:06,662 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:40:06,714 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:40:07,115 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:40:07,179 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-g5599 -> scale_down
+2026-03-12 10:40:07,608 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-g5599 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:40:22,881 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:40:23,335 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:40:23,390 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:40:23,826 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:40:23,886 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-g5599 -> scale_down
+2026-03-12 10:40:24,285 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-g5599 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:40:39,566 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:40:39,990 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:40:40,037 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:40:40,490 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:40:40,524 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-g5599 -> scale_down
+2026-03-12 10:40:41,008 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-g5599 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:45:46,315 [INFO] sla_monitor: Namespaces: ['default']
+2026-03-12 10:45:46,316 [INFO] sla_monitor: Poll interval: 15s
+2026-03-12 10:45:48,069 [INFO] sla_monitor.recovery: Recovery action model loaded
+2026-03-12 10:45:48,069 [INFO] sla_monitor.recovery: RecoveryAgent initialized
+2026-03-12 10:45:48,084 [INFO] sla_monitor.monitoring: Pod health model loaded
+2026-03-12 10:45:48,093 [INFO] sla_monitor.monitoring: Autoscale model loaded
+2026-03-12 10:45:48,093 [INFO] sla_monitor.monitoring: MonitoringAgent initialized
+2026-03-12 10:45:48,093 [INFO] sla_monitor.monitoring: MonitoringAgent started - polling every 15s
+2026-03-12 10:45:48,372 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:45:48,811 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:45:48,854 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:45:49,294 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:45:49,330 [WARNING] sla_monitor.sla: [SLA VIOLATION] pod=unstable-app-6746947b4b-g5599 metric=restart_count value=5.00 threshold=3.00
+2026-03-12 10:45:49,338 [WARNING] sla_monitor.monitoring: Triggering recovery for unstable-app-6746947b4b-g5599 - state=Normal, violations=['Restarts 5 > max 3', 'Container not ready despite Running phase']
+2026-03-12 10:45:49,606 [INFO] sla_monitor.recovery: ML selected action: restart_pod for failure: ContainerNotReady
+2026-03-12 10:45:49,606 [INFO] sla_monitor.recovery: Executing action 'restart_pod' on pod 'unstable-app-6746947b4b-g5599' in 'default'
+2026-03-12 10:45:49,606 [INFO] utils.k8s_client: Restarting pod: unstable-app-6746947b4b-g5599
+2026-03-12 10:45:54,900 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-g5599 failure=ContainerNotReady action=restart_pod status=Resolved
+2026-03-12 10:45:54,900 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-g5599 -> scale_down
+2026-03-12 10:45:55,007 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-g5599 failure=LowLoad action=scale_down_replicas status=Failed
+2026-03-12 10:46:10,275 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:46:10,671 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:46:10,709 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:46:11,087 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:46:11,118 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-bc222 -> scale_down
+2026-03-12 10:46:11,506 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-bc222 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:46:26,782 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:46:27,167 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:46:27,203 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:46:27,599 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:46:27,635 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-bc222 -> scale_down
+2026-03-12 10:46:28,023 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-bc222 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:46:43,532 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:46:44,044 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:46:44,135 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:46:44,623 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:46:44,697 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-bc222 -> scale_down
+2026-03-12 10:46:45,256 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-bc222 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:47:15,142 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:47:17,015 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:47:18,042 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:47:43,545 [INFO] sla_monitor.monitoring: MonitoringAgent stopped by user
+2026-03-12 10:51:01,605 [INFO] sla_monitor: Namespaces: ['default']
+2026-03-12 10:51:01,606 [INFO] sla_monitor: Poll interval: 15s
+2026-03-12 10:51:05,373 [INFO] sla_monitor.recovery: Recovery action model loaded
+2026-03-12 10:51:05,373 [INFO] sla_monitor.recovery: RecoveryAgent initialized
+2026-03-12 10:51:05,388 [INFO] sla_monitor.monitoring: Pod health model loaded
+2026-03-12 10:51:05,399 [INFO] sla_monitor.monitoring: Autoscale model loaded
+2026-03-12 10:51:05,401 [INFO] sla_monitor.monitoring: MonitoringAgent initialized
+2026-03-12 10:51:05,401 [INFO] sla_monitor.monitoring: MonitoringAgent started - polling every 15s
+2026-03-12 10:51:05,743 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:51:06,255 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:51:06,300 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:51:06,738 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:51:06,774 [WARNING] sla_monitor.sla: [SLA VIOLATION] pod=unstable-app-6746947b4b-bc222 metric=restart_count value=4.00 threshold=3.00
+2026-03-12 10:51:06,778 [WARNING] sla_monitor.monitoring: Triggering recovery for unstable-app-6746947b4b-bc222 - state=Normal, violations=['Restarts 4 > max 3', 'Container not ready despite Running phase']
+2026-03-12 10:51:07,128 [INFO] sla_monitor.recovery: ML selected action: restart_pod for failure: ContainerNotReady
+2026-03-12 10:51:07,128 [INFO] sla_monitor.recovery: Executing action 'restart_pod' on pod 'unstable-app-6746947b4b-bc222' in 'default'
+2026-03-12 10:51:07,130 [INFO] utils.k8s_client: Restarting pod: unstable-app-6746947b4b-bc222
+2026-03-12 10:51:12,465 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-bc222 failure=ContainerNotReady action=restart_pod status=Resolved
+2026-03-12 10:51:12,472 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-bc222 -> scale_down
+2026-03-12 10:51:12,623 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-bc222 failure=LowLoad action=scale_down_replicas status=Failed
+2026-03-12 10:51:27,940 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:51:28,312 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:51:28,347 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:51:28,739 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:51:28,778 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-7djpk -> scale_down
+2026-03-12 10:51:29,206 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-7djpk failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:51:44,511 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:51:44,971 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:51:45,008 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:51:45,404 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:51:45,440 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-7djpk -> scale_down
+2026-03-12 10:51:45,840 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-7djpk failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:52:01,096 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:52:01,483 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:52:01,521 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:52:01,908 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:52:01,947 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-7djpk -> scale_down
+2026-03-12 10:52:02,335 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-7djpk failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:52:17,591 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:52:18,006 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:52:18,036 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:52:18,434 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:52:18,467 [WARNING] sla_monitor.monitoring: Triggering recovery for unstable-app-6746947b4b-7djpk - state=Normal, violations=['Container not ready despite Running phase']
+2026-03-12 10:52:18,709 [INFO] sla_monitor.recovery: ML selected action: restart_pod for failure: ContainerNotReady
+2026-03-12 10:52:18,709 [INFO] sla_monitor.recovery: Executing action 'restart_pod' on pod 'unstable-app-6746947b4b-7djpk' in 'default'
+2026-03-12 10:52:18,709 [INFO] utils.k8s_client: Restarting pod: unstable-app-6746947b4b-7djpk
+2026-03-12 10:52:24,003 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-7djpk failure=ContainerNotReady action=restart_pod status=Resolved
+2026-03-12 10:52:24,011 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-7djpk -> scale_down
+2026-03-12 10:52:24,122 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-7djpk failure=LowLoad action=scale_down_replicas status=Failed
+2026-03-12 10:52:39,372 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:52:39,774 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:52:39,806 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:52:40,193 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:52:40,226 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-jglrr -> scale_down
+2026-03-12 10:52:40,616 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-jglrr failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:52:55,861 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:52:56,246 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:52:56,281 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:52:56,700 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:52:56,736 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-jglrr -> scale_down
+2026-03-12 10:52:57,122 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-jglrr failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:53:12,364 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:53:12,769 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:53:12,802 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:53:13,190 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:53:13,221 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-jglrr -> scale_down
+2026-03-12 10:53:13,609 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-jglrr failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:53:28,859 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:53:29,244 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:53:29,275 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:53:29,663 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:53:29,698 [WARNING] sla_monitor.monitoring: Triggering recovery for unstable-app-6746947b4b-jglrr - state=Normal, violations=['Container not ready despite Running phase']
+2026-03-12 10:53:29,970 [INFO] sla_monitor.recovery: ML selected action: restart_pod for failure: ContainerNotReady
+2026-03-12 10:53:29,970 [INFO] sla_monitor.recovery: Executing action 'restart_pod' on pod 'unstable-app-6746947b4b-jglrr' in 'default'
+2026-03-12 10:53:29,970 [INFO] utils.k8s_client: Restarting pod: unstable-app-6746947b4b-jglrr
+2026-03-12 10:53:35,227 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-jglrr failure=ContainerNotReady action=restart_pod status=Resolved
+2026-03-12 10:53:35,231 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-jglrr -> scale_down
+2026-03-12 10:53:35,335 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-jglrr failure=LowLoad action=scale_down_replicas status=Failed
+2026-03-12 10:53:50,585 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:53:51,009 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:53:51,033 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:53:51,428 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:53:51,473 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-275tv -> scale_down
+2026-03-12 10:53:51,893 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-275tv failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:54:07,141 [INFO] sla_monitor.monitoring: [Autoscale] resource-hog-app-7bf9c47c85-ckld5 -> scale_down
+2026-03-12 10:54:07,546 [INFO] sla_monitor.events: [EVENT] pod=resource-hog-app-7bf9c47c85-ckld5 failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:54:07,587 [INFO] sla_monitor.monitoring: [Autoscale] stable-app-6c766dd769-ff6hg -> scale_down
+2026-03-12 10:54:08,000 [INFO] sla_monitor.events: [EVENT] pod=stable-app-6c766dd769-ff6hg failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 10:54:08,034 [INFO] sla_monitor.monitoring: [Autoscale] unstable-app-6746947b4b-275tv -> scale_down
+2026-03-12 10:54:08,460 [INFO] sla_monitor.events: [EVENT] pod=unstable-app-6746947b4b-275tv failure=LowLoad action=scale_down_replicas status=Resolved
+2026-03-12 11:06:01,210 [WARNING] sla_monitor.sla: [SLA VIOLATION] pod=unstable-app-6746947b4b-275tv metric=restart_count value=6.00 threshold=3.00
+2026-03-12 11:06:01,214 [WARNING] sla_monitor.monitoring: Triggering recovery for unstable-app-6746947b4b-275tv - state=Normal, violations=['Restarts 6 > max 3', 'Container not ready despite Running phase']
+2026-03-12 11:07:13,202 [WARNING] sla_monitor.monitoring: Triggering recovery for unstable-app-6746947b4b-kvw65 - state=Normal, violations=['Container not ready despite Running phase']
